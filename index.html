@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Gellio</title>
+
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="first"> 
+        <h3><strong>Gellio</strong> </h3>
+    </div>
+    <div class="btnStyle">
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+            <img class="menubtn" src="./menu.png">
+            </button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">Home</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </div>
+    
+      <script>
+       
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+
+   <div class="buffer col-12 "></div>
+	<div class="container d-flex align-items-center h-100">
+
+    <div class="row ">
+        <div class="box zone"> <img src="./logo.png"></div>
+            <div class="text" >
+                <header class=" text-center col-3">
+                    <h4 class="text-uppercase"> <strong>Product Manager </strong></h4>
+                    <h5> Create a unique illustration for a website, application, or presentation</h5>
+                </header>
+                <section class="text-center col-8">
+                    <a href="info.html"><button class="btn btn-primary btn-xl">GET STARTED</button></a>
+                </section> 
+                <div class="buffer col-12 "></div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+</body>
+</html>
