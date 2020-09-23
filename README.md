@@ -1,7 +1,7 @@
 # intern_frontend
 frontend challenge to proceed to next round.
 
-Visit teh given link
+Visit the given link
 
 https://paruldiwakar.github.io/intern_frontend/
 
